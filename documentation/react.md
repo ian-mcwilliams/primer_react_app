@@ -12,6 +12,10 @@ It works by adding a series of Live Templates - see WebStorm Preferences > Edito
 
 Generate react html templates using html shorthand followed by tab
 
+##### Table example
+
+Note that table.table means add the table tag with a className of "table"
+
 ```
 table.table>thead>tr>th*4
 ```
@@ -27,4 +31,16 @@ table.table>thead>tr>th*4
     </tr>
   </thead>
 </table>
+```
+
+##### Button example
+
+Note that multiple classes can be added through chaining
+
+```
+button.btn.btn-danger.btn-sm
+```
+
+```
+<button className="btn btn-danger btn-sm">Delete</button>
 ```
